@@ -13,7 +13,7 @@ const server = app.listen(port);
 io.listen(server);
 
 
-app.use(express.static('public'))
+app.use(express.static('public'));
 console.log(`server listing on port ${port}`);
 
 
